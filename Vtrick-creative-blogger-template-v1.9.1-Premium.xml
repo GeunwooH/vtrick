@@ -3,6 +3,13 @@
 <html b:css='false' b:defaultwidgetversion='2' b:layoutsVersion='3' b:render='true' b:responsive='true' b:templateUrl='https://www.vietrick.com' b:templateVersion='1.9.0' expr:class='data:blog.languageDirection' expr:dir='data:blog.languageDirection' expr:lang='data:blog.localeUnderscoreDelimited' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
 <b:include name='theme-dark-mode'/>
 <head>
+	<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KB7SQ6N9');</script>
+<!-- End Google Tag Manager -->
 <b:include name='theme-head'/>
 <b:if cond='!data:view.isLayoutMode'>
 <!-- Theme CSS Style -->
@@ -647,6 +654,10 @@ body#layout #vtrick-pro-cta2-section > h4:after{content:' - Right Call to Action
 </b:defaultmarkups>
 </head>
 <body>
+	<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KB7SQ6N9"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <b:include name='theme-body-class'/>
 <b:if cond='data:view.isLayoutMode or (data:widgets any w =&gt; w.sectionId == &quot;ify-panel&quot;)'>
   <!-- Theme Options -->
